@@ -27,3 +27,9 @@ You can try to log on the server but where is the password?
 
 Add SSH key, add backend server, open internet access to download packages,
 upgrades. Customize the image with cloud-init configuration steps.
+
+## Stage 4
+
+Add unit tests to the infrastructure. Verify and fix the tests:
+
+    ./venv/bin/python -m unittest
