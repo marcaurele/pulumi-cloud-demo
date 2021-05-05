@@ -14,3 +14,11 @@ Verify the project:
 
     * `cd app`
     * `pulumi up`
+
+## Stage 2
+
+Change the type of resources and create a server in eu-central-1 based
+on a Ubuntu 20.04 image as a webserver. Opens the port `22` for SSH access
+and port `80` for HTTP.
+
+You can try to log on the server but where is the password?
