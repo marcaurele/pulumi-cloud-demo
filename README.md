@@ -33,3 +33,9 @@ upgrades. Customize the image with cloud-init configuration steps.
 Add unit tests to the infrastructure. Verify and fix the tests:
 
     ./venv/bin/python -m unittest
+
+## Stage 5
+
+Add integration tests for the servers:
+
+    aws-vault exec sandbox -- ./venv/bin/python -m unittest test_ec2_it.py
